@@ -12,6 +12,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  int keyVal = analogRead(A0);
+  Serial.println(keyVal);
 
 }
