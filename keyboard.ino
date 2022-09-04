@@ -19,7 +19,7 @@ void loop() {
 
   // Determine the notes to play
   if (keyVal == 1023) {
-    tone(8, notes[10]);
+    tone(8, notes[0]);
   }
 
   else if (keyVal >= 990 && keyVal <= 1010) {
